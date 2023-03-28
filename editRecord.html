@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="edit.js"> </script>
+    
+    </head>
+    <body>
+    
+        <div class="table-wrapper" style="margin:  0 auto; text-align: center;">
+            <h2 class="page_header" >Edit Address</h2>
+            <form>
+                <table  style="margin: 0 auto" class="table">
+                <tr>
+                <td><label for="username">Fullname :</label></td>
+                <td><input type="text" id="username" readonly disabled></td>
+                </tr>
+                <tr>
+                <td><label for="Address">Address :</label></td>
+                <td><input type="text" id="address"></td>
+                </tr>
+
+                <tr>
+                <td><label for="City">City :</label></td>
+                <td><input type="text" id="city"></td>
+                </tr>
+
+                <tr>
+                <td><label for="State">State</label></td>
+                <td><input type="text" id="state"></td>
+                </tr>
+
+                <tr>
+                <td><label for="Zip">Zip</label></td>
+                <td><input type="text" id="zip"></td>
+                </tr>
+
+                <tr>
+                <td><label for="Phone">Phone</label></td>
+                <td><input type="text" id="phone"></td>
+                </tr>
+                <td></td>
+                <td><input type="button" value="Submit" onclick="updateAddress()" class="create_address_button"></td>
+                </table>
+            
+            
+            </form>
+    </div>
+    </body>
+</html>
